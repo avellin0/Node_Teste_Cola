@@ -14,11 +14,11 @@ export class appointment {
     }
 
     get startAt() {
-        return this.props.customer
+        return this.props.startAt
     }
 
     get endsAt() {
-        return this.props.customer
+        return this.props.endsAt
     }
 
     constructor(props: AppointmetProps) {
